@@ -1,7 +1,11 @@
 @extends ('layout')
 
 @section ('heading')
-	Welcome >:)
+	Hello There!
+@endsection
+
+@section ('subheading')
+	Whatcha Buyin'?
 @endsection
 
 @section ('content')
