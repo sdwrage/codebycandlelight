@@ -60,14 +60,12 @@
                         <a href="/contact">Contact</a>
                     </li>
 
-                    @if (Auth::check())
-                        <!-- <li><a>Welcome {{ auth()->user()->name }}</a></li> -->
-                    @endif
+                   <!--  @if (Auth::check())
+                        <li><a>Welcome {{ auth()->user()->name }}</a></li>
+                    @endif -->
 
                     @if (Auth::check())
                         <li><a href="/logout">Log Out</a></li>
-                    @else
-                        <li><a href="/login">Log In</a></li>
                     @endif
                 </ul>
             </div>
