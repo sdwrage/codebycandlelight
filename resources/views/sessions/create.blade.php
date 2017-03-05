@@ -5,7 +5,7 @@
 @endsection
 
 @section ('subheading')
-	We won't bite... well I can't promise that ;)
+	I won't bite >.>
 @endsection
 
 @section ('content')
