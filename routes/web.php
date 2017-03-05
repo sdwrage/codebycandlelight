@@ -39,8 +39,8 @@ Route::get('/posts/{post}', 'PostsController@show');
 Route::post('/posts/{post}/comments', 'CommentsController@store');
 
 // Registration
-Route::get('/register', 'RegistrationController@create');
-Route::post('/register', 'RegistrationController@store');
+//Route::get('/register', 'RegistrationController@create');
+//Route::post('/register', 'RegistrationController@store');
 
 // Authentication
 Route::get('/login', 'SessionsController@create')->name('login');
