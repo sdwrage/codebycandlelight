@@ -61,7 +61,7 @@
                     </li>
 
                     @if (Auth::check())
-                        <li><a>Welcome {{ auth()->user()->name }}</a></li>
+                        <!-- <li><a>Welcome {{ auth()->user()->name }}</a></li> -->
                     @endif
 
                     @if (Auth::check())
