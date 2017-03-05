@@ -15,4 +15,6 @@
     <p>What do I do? I am a Web Application Developer who loves both Front-end and Back-end Development. My main backend focus on PHP with experience in frameworks like Zend Framework 2 and Laravel. I also have experience in Ruby (Ruby on Rails) and Groovy (Grails). My Front-end focus is mainly on HTML5, CSS3, Twitter Bootstrap (as a base css framework), JQuery and ReactJS.</p>
 
     <p>My intesterests? Poetry, Paranormal Research, Writing, Game Development and Fathering. I am open to developing new skills and experiencing new hobbies. Want to keep in touch? Contact me at <a href="mailto:justinlonas@me.com">justinlonas@me.com</a>.</p>
+
+    <p>✊</p>
 @endsection
