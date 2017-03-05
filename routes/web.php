@@ -20,11 +20,11 @@ Route::get('/', function() {
 
 Route::get('/about', function() {
 	return view('static.about');
-})
+});
 
 Route::get('/contact', function() {
 	return view('static.contact');
-})
+});
 
 Route::get('/posts', 'PostsController@index')->name('home');
 
