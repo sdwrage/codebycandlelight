@@ -9,7 +9,11 @@
 @endsection
 
 @section('content')
-<a href="/posts/create" class="btn btn-important">Add Post</a>
+
+@if (Auth::check())
+	<a href="/posts/create" class="btn btn-important">Add Post</a>
+@endif
+
 <ul>
     <h2>The Posts</h2>
     @foreach ($posts as $post)
