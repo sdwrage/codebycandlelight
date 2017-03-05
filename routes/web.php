@@ -16,6 +16,16 @@ Route::get('/', function() {
 	return view('welcome');
 });
 
+// Basic static page routes
+
+Route::get('/about', function() {
+	return view('static.about');
+})
+
+Route::get('/contact', function() {
+	return view('static.about');
+})
+
 Route::get('/posts', 'PostsController@index')->name('home');
 
 Route::get('/posts/create', 'PostsController@create');
