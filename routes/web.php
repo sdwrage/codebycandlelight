@@ -23,7 +23,7 @@ Route::get('/about', function() {
 })
 
 Route::get('/contact', function() {
-	return view('static.about');
+	return view('static.contact');
 })
 
 Route::get('/posts', 'PostsController@index')->name('home');
